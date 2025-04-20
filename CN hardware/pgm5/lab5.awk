@@ -1,0 +1,14 @@
+BEGIN{
+pkt=0
+time=0
+}
+{
+if($1=="r"&&$3=="8"&&$4=="5")
+{
+pkt=pkt+$6
+time=$2
+}
+}
+END{
+printf("Throughput:%f\n\n",(pkt/time)*(8/1000000));
+}

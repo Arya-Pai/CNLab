@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "BELL.C": "cpp",
+        "DIJKSTRA.C": "cpp",
+        "CRC.C": "cpp",
+        "HAMMING.C": "cpp",
+        "Leaky.C": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "disabled"
+}
