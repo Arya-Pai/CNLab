@@ -53,7 +53,7 @@ int main(int argc, char *argv[]) {
         if (strcmp(buf, "END") == 0) {
         printf("Received END. Closing connection.\n");
         break;
-    }
+        }
         printf("Received: %s\n", buf);
         fprintf(fp, "%s", buf); // Write to file
 

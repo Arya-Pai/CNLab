@@ -4,7 +4,8 @@
         "DIJKSTRA.C": "cpp",
         "CRC.C": "cpp",
         "HAMMING.C": "cpp",
-        "Leaky.C": "cpp"
+        "Leaky.C": "cpp",
+        "5.HAMMING.C": "cpp"
     },
     "C_Cpp.errorSquiggles": "disabled"
 }
